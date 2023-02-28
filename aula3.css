@@ -1,0 +1,13 @@
+div{
+    color: rgb(77, 12, 138);
+    font-size: 20pt;
+}
+.outro{
+    color: chocolate;
+}
+div.uma{
+    border: 1px solid black;
+}
+#texto{
+    font-size: 20pt;
+}
