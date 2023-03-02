@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Aula de JS</title>
+
+        <script>
+            // javascript não é JAVA
+            
+            var nome = "Elisama"; //string
+            var idade = 31; //int (inteiro)
+            var peso = 95.5; //float
+            var andando = false; // bool (booleano)  
+
+            // = significa recebe 
+
+            function exibir()
+            {
+                var pessoa = prompt("Qual é seu nome?");                
+                console.log("Olá " + pessoa)
+            }
+
+            function maiuscula()
+            {
+                var pessoa = prompt("Qual é seu nome?");
+   
+                var novo = pessoa.toUpperCase();
+                console.log(novo);       
+            }
+
+            function email()
+            {
+                var email = prompt("Digite seu email");
+                var dados = email.split("@")
+                var usuario = [0];
+                var servidor = [1];
+                console.log("usuario:" + usuario);
+                console.log("servidor:" + servidor);
+            }
+
+        
+            function somar()
+            {
+                var n1 = prompt("digite o num 1");
+                var n2 = prompt("digite o num 2");
+
+                var resultado = parseInt(n1) + parseInt(n2);
+                
+                console.log(resultado);
+            }
+                
+        </script>
+
+    </head>
+
+    <body>
+      
+        <h1>Aula de JS</h1>
+
+        <button onclick="exibir()">Exibir</button>
+
+        <button onclick="maiuscula()">Letra Maiuscula</button>
+
+        <button onclick="email()">Email</button>
+        
+        <button onclick="somar()">somar</button>
+        <button>sub</button>
+        <button>mult</button>
+        <button>div</button>
+
+    </body>
+</html>
